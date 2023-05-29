@@ -1,3 +1,7 @@
+//SETUP NOTES:
+//
+//Make sure you figure out how to use the same certificate on more than one machine.
+
 import 'package:flutter/material.dart';
 
 void main() {
