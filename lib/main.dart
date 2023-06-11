@@ -45,12 +45,11 @@ class HomePage extends StatelessWidget {
               return const LoginView();
             }
             return const Text("Done!");
-            // if (user?.emailVerified ?? false) {
-            //   return const Text("Done!");
-            // } else {
-            //   return const VerifyEmailView();
-            // }
-            return const LoginView();
+          // if (user?.emailVerified ?? false) {
+          //   return const Text("Done!");
+          // } else {
+          //   return const VerifyEmailView();
+          // }
           default:
             return const Center(
               child: CircularProgressIndicator(),
